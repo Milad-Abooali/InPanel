@@ -1,0 +1,25 @@
+# Googlebot robots
+User-agent: Googlebot
+Allow:    /codeshop/
+Allow:    /front/
+Allow:    /forum/
+Allow:    /support/
+Allow:    /tools/
+
+# MJ12bot robots
+User-agent: MJ12bot
+Allow:    /codeshop/
+Allow:    /front/
+Allow:    /forum/
+Allow:    /support/
+Allow:    /tools/
+
+# All other robots
+User-agent: *
+Allow:    /codeshop/
+Allow:    /front/
+Allow:    /forum/
+Allow:    /support/
+Allow:    /tools/
+
+# Sitemaps & feed

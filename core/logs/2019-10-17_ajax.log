@@ -1,0 +1,45 @@
+###################################### 
+####### 2019-10-17 06:34:01pm  Mahan 3 Debegger Level:3 
+####### Session: u7sfpf9p5q3gtchst0cqtlkdpu 
+####### SID: 4c38648e01979713e5f161b96fa1f97e 
+###################################### 
+== AJAX
+0 | 1571337241.7671 | ST: 1
+1 | 1571337241.7671 | SI: 1
+2 | 1571337241.7671 | Class: box
+3 | 1571337241.7678 | Action: addNewStaff
+4 | 1571337241.7678 | id: 0
+== PageGen
+0 | 1571337241.7828 | Page generated in <b>0.02523</b> seconds
+== RUN
+0 | 1571337241.7828 | Run on: plugin.php > ssp.php > m3.php > view.php > ajax.php
+###################################### 
+####### 2019-10-17 06:38:34pm  Mahan 3 Debegger Level:3 
+####### Session: u7sfpf9p5q3gtchst0cqtlkdpu 
+####### SID: 4c38648e01979713e5f161b96fa1f97e 
+###################################### 
+== AJAX
+0 | 1571337514.5915 | ST: 1
+1 | 1571337514.5915 | SI: 1
+2 | 1571337514.5915 | Class: box
+3 | 1571337514.5925 | Action: addNewRole
+4 | 1571337514.5925 | id: 0
+== PageGen
+0 | 1571337514.5931 | Page generated in <b>0.01989</b> seconds
+== RUN
+0 | 1571337514.5932 | Run on: plugin.php > ssp.php > m3.php > view.php > ajax.php
+###################################### 
+####### 2019-10-17 06:38:36pm  Mahan 3 Debegger Level:3 
+####### Session: u7sfpf9p5q3gtchst0cqtlkdpu 
+####### SID: 4c38648e01979713e5f161b96fa1f97e 
+###################################### 
+== AJAX
+0 | 1571337516.2264 | ST: 1
+1 | 1571337516.2264 | SI: 1
+2 | 1571337516.2264 | Class: members/staffs
+3 | 1571337516.2273 | Action: addRole
+4 | 1571337516.2273 | id: 0
+== PageGen
+0 | 1571337516.2391 | Page generated in <b>0.02181</b> seconds
+== RUN
+0 | 1571337516.2391 | Run on: plugin.php > ssp.php > m3.php > view.php > ajax.php

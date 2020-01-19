@@ -1,0 +1,18 @@
+#================================== Codebox Framework
+# Mahan 3.0.0
+# .htaccess
+# Created on 1/31/2019 12:02 PM by Milad Abooali
+#################################### START
+
+RewriteRule ^js/(.*)\.dy.js$ js/$1.js.php
+<FilesMatch "\.js.php$">
+  SetHandler application/x-httpd-php
+  Header set Content-Type "application/javascript; charset=utf-8"
+</FilesMatch>
+
+RewriteRule ^css/(.*)\.dy.css$ js/$1.css.php
+<FilesMatch "\.css.php$">
+  SetHandler application/x-httpd-php
+  Header set Content-Type "text/css; charset=utf-8"
+</FilesMatch>
+#################################### CUSTOM

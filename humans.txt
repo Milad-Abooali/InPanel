@@ -1,0 +1,21 @@
+/* TEAM */
+	SysAdmin & Chef:Miald Abooali
+	Contact: admin [at] codebox.ir
+	Telegram: @Milad_abooali
+	From:Shiraz, Fars, Iran
+
+	Front Support: Hosayn Dindarloo
+	Contact: support [at] codebox.ir
+	Telegram: @Dindarloo
+	From:Darab, Fars, Iran
+
+/* THANKS */
+
+	GD: Alireza Atiaey
+	From:Tehran, Tehran, Iran
+
+/* SITE */
+	Last update:2016/03/05
+	Language: Persian
+	Doctype:HTML5
+	IDE: PHPStorm, Notepad2, Photoshop, WinSCP, XAMPP

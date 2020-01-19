@@ -1,0 +1,35 @@
+#================================== Codebox Framework
+# Mahan 3.0.0
+# .htaccess
+# Created on 1/31/2019 12:02 PM by Milad Abooali
+#################################### START
+    RewriteEngine on
+#################################### SECURITY
+    <Files "deny.php">
+		Order Allow,Deny
+		Deny from All
+    </Files>
+    RewriteRule ^core/?$ - [F,L]
+    RewriteRule ^cdn/?$ - [F,L]
+    RewriteRule ^local/?$ - [F,L]
+#################################### ROUTING
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule . index.php [L]
+#################################### SERVOUT
+<IfModule mod_setenvif.c>
+  <IfModule mod_headers.c>
+    <FilesMatch "\.(gif|png|jpeg|svg|svgz|ico|webp)$">
+      SetEnvIf Origin ":" IS_CORS
+      Header set Access-Control-Allow-Origin "*" env=IS_CORS
+    </FilesMatch>
+  </IfModule>
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+#################################### CACHE
+
+#################################### CUSTOM

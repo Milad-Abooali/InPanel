@@ -1,0 +1,82 @@
+:root {
+  --blue: #20a8d8;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #f86c6b;
+  --orange: #f8cb00;
+  --yellow: #ffc107;
+  --green: #4dbd74;
+  --teal: #20c997;
+  --cyan: #63c2de;
+  --white: #fff;
+  --gray: #536c79;
+  --gray-dark: #29363d;
+  --blue: #20a8d8;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #f86c6b;
+  --orange: #f8cb00;
+  --yellow: #ffc107;
+  --green: #4dbd74;
+  --teal: #20c997;
+  --cyan: #63c2de;
+  --white: #fff;
+  --gray: #536c79;
+  --primary: #20a8d8;
+  --secondary: #a4b7c1;
+  --success: #4dbd74;
+  --info: #63c2de;
+  --warning: #ffc107;
+  --danger: #f86c6b;
+  --light: #f0f3f5;
+  --dark: #29363d;
+}
+
+
+
+
+
+var(--second-color);
+
+.bg-white {background-color:#00a300;}
+.b-white {border-color: coral;}
+
+.t-white {color: #fff !important; }
+a.text-white:focus, a.text-white:hover {color: #cecece !important; }
+.text-primary {color: #20a8d8 !important; }
+
+
+
+a.text-primary:focus, a.text-primary:hover {color: #1985ac !important; }
+
+.text-secondary {color: #a4b7c1 !important; }
+a.text-secondary:focus, a.text-secondary:hover {color: #869fac !important; }
+
+.text-success {color: #4dbd74 !important; }
+a.text-success:focus, a.text-success:hover {color: #3a9d5d !important; }
+
+.text-info {color: #63c2de !important; }
+a.text-info:focus, a.text-info:hover {color: #39b2d5 !important; }
+
+.text-warning {color: #ffc107 !important; }
+a.text-warning:focus, a.text-warning:hover {color: #d39e00 !important; }
+
+.text-danger {color: #f86c6b !important; }
+a.text-danger:focus, a.text-danger:hover {color: #f63c3a !important; }
+
+.text-light {color: #f0f3f5 !important; }
+a.text-light:focus, a.text-light:hover {color: #d1dbe1 !important; }
+
+.text-dark {color: #29363d !important; }
+a.text-dark:focus, a.text-dark:hover {color: #151b1f !important; }
+
+.text-muted {color: #536c79 !important;}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}

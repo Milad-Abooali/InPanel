@@ -1,0 +1,26 @@
+###################################### 
+####### 2019-02-23 01:13:51am  Mahan 3 Debegger Level:3 
+####### Session: ttnmaold2gp085kionojm71vq2 
+####### SID: 5825629f791cd64c58d5a6bf8be6b4d0 
+###################################### 
+== Library
+0 | 1550884431.7223 | core/libs/database.php
+1 | 1550884431.7223 | core/libs/debugger.php
+2 | 1550884431.7224 | core/libs/m3.php
+== RUN
+0 | 1550884431.7225 | testFunc()
+== PageGen
+0 | 1550884431.7305 | Page generated in <b>0.01557</b> seconds
+###################################### 
+####### 2019-02-23 01:14:29am  Mahan 3 Debegger Level:3 
+####### Session: ttnmaold2gp085kionojm71vq2 
+####### SID: 5825629f791cd64c58d5a6bf8be6b4d0 
+###################################### 
+== Library
+0 | 1550884469.6286 | core/libs/database.php
+1 | 1550884469.6287 | core/libs/debugger.php
+2 | 1550884469.6287 | core/libs/m3.php
+== RUN
+0 | 1550884469.6287 | testFunc()
+== PageGen
+0 | 1550884469.6287 | Page generated in <b>0.00334</b> seconds
